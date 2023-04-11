@@ -1,6 +1,3 @@
-
-
-console.log(findFirstNonRepeatingCharacter('hello world')); 
 function findFirstNonRepeatingCharacter(str) {
   const charCount = {};
 
@@ -16,5 +13,4 @@ function findFirstNonRepeatingCharacter(str) {
     }
   }
 }
-let str = prompt("Enter a string");
-alert(findFirstNonRepeatingCharacter(str));
+alert(findFirstNonRepeatingCharacter(prompt("Enter a string")));
